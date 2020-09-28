@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="distance_default">2</integer>
+    <integer name="distance_min">1</integer>
+    <integer name="distance_max">10</integer>
+    <integer name="sedentary_default">300</integer>
+    <integer name="sedentary_min">10</integer>
+    <integer name="sedentary_max">600</integer>
+</resources>

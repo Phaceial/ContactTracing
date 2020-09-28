@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SeekBarPreference
+        android:id="@+id/distance"
+        android:defaultValue="@integer/distance_default"
+        android:key="@string/seekbar_distance_key"
+        android:max="@integer/distance_max"
+        android:min="@integer/distance_min"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Distance tracing from 1-10 meters"
+        android:title="Set Tracing Distance"
+        app:showSeekBarValue="true" />
+    <SeekBarPreference
+        android:id="@+id/sedentary"
+        android:defaultValue="@integer/sedentary_default"
+        android:key="@string/seekbar_sedentary_key"
+        android:max="@integer/sedentary_max"
+        android:min="@integer/sedentary_min"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Seconds before alarm triggers"
+        android:title="Set Sedentary Time"
+        app:showSeekBarValue="true" />
+
+</PreferenceScreen>
